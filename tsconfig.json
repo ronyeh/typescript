@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src/",
+        "outDir": "build/",
+        "target": "es6",
+        "noImplicitAny": true,
+        "module": "esnext",
+        "lib": ["dom", "dom.iterable", "es2019", "webworker"],
+        "removeComments": true,
+        "sourceMap": false,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "jsx": "preserve",
+        "rootDir": "src/"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
